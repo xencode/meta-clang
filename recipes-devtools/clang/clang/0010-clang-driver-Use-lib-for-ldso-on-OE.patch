@@ -26,7 +26,7 @@ index ed907549929..8cee2490cc7 100644
      break;
    case llvm::Triple::ppc64:
 -    LibDir = "lib64";
-+    LibDir = "lib";
++    LibDir = "lib64";
      Loader =
          (tools::ppc::hasPPCAbiArg(Args, "elfv2")) ? "ld64.so.2" : "ld64.so.1";
      break;
